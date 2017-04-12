@@ -17,11 +17,20 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   }));
 
+  //for (let i = 0; i < 200; i++) {
+
+
   it(`should have as title 'app works!'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('app works!');
   }));
+
+  // it(`should have as title 'app works!'`, async(() => {
+  //   let app = new AppComponent();
+  //   expect(app.title).toEqual('app works!');
+  // }));
+  //}
 
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -29,4 +38,7 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h1').textContent).toContain('app works!');
   }));
+  //}
+
+
 });

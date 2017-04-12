@@ -1,0 +1,81 @@
+23:11:39.496 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+23:11:39.500 # Specification Heading
+23:11:39.501 ## Vowel counts in single word
+23:11:39.507 * Vowels in English language are "aeiou".
+
+23:11:39.514 * The word "gauge" has "3" vowels.
+
+23:11:39.519 ## Vowel counts in multiple word
+23:11:39.522 * Vowels in English language are "aeiou".
+
+23:11:39.525 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+23:11:39.631 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:11:39.632 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+23:11:39.632 
+Total time taken: 34ms
+23:11:49.822 [ValidationError] /home/abner/git/projetos/gauge/ngapp-with-gauge/gauge-project/specs/example.spec:29 Step implementation not found => 'Almost all words have vowels2 <table>'
+23:11:49.823 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+23:11:49.828 # Specification Heading
+23:11:49.831 ## Vowel counts in single word
+23:11:49.835 * Vowels in English language are "aeiou".
+
+23:11:49.840 * The word "gauge" has "3" vowels.
+
+23:11:49.947 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:11:49.947 Scenarios:	1 executed	1 passed	0 failed	1 skipped
+23:11:49.947 
+Total time taken: 24ms
+23:12:05.880 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+23:12:05.884 # Specification Heading
+23:12:05.885 ## Vowel counts in single word
+23:12:05.890 * Vowels in English language are "aeiou".
+
+23:12:05.895 * The word "gauge" has "3" vowels.
+
+23:12:05.899 ## Vowel counts in multiple word
+23:12:05.901 * Vowels in English language are "aeiou".
+
+23:12:05.902 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+23:12:06.011 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:12:06.011 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+23:12:06.011 
+Total time taken: 30ms
+23:15:13.096 # Specification Heading
+23:15:13.098 ## Vowel counts in single word
+23:15:13.103 * Vowels in English language are "aeiou".
+
+23:15:13.108 * The word "gauge" has "3" vowels.
+
+23:15:13.111 ## Vowel counts in multiple word
+23:15:13.113 * Vowels in English language are "aeiou".
+
+23:15:13.115 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+23:15:13.224 Plugin [Html Report] with pid [32182] has exited
+23:15:13.324 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:15:13.324 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+23:15:13.325 
+Total time taken: 39ms
