@@ -7,7 +7,6 @@
 
 # dependencies
 /node_modules
-
 gauge-project/node_modules
 gauge-project/reports
 
@@ -44,3 +43,5 @@ testem.log
 .DS_Store
 Thumbs.db
 .gauge/
+gauge-project/.gauge
+gauge-project/logs
