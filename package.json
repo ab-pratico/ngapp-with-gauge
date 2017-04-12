@@ -22,8 +22,8 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
-    "gauge-npm": "../gauge-npm/gauge-npm-1.0.22.tgz",
     "jsdom": "9.11.0",
+    "karma-phantomjs-launcher": "^1.0.4",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
@@ -61,7 +61,6 @@
     ],
     "coverageDirectory": "./coverage",
     "setupTestFrameworkScriptFile": "<rootDir>/src/jest.ts",
-
     "testPathIgnorePatterns": [
       "/node_modules/"
     ],
