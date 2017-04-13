@@ -2,8 +2,8 @@ import { MeuComponent } from './meu-component';
 import { TestBed, async, inject } from '@angular/core/testing';
 import { ComponentFixture } from '@angular/core/testing';
 import { AutenticacaoService } from './../autenticacao.service';
-import { getAutenticacaoServiceMock } from './../../test/mock';
 import { runIntegrationTests } from '../../../test/testing-helper';
+import { getAutenticacaoServiceMock } from '../../../test/mocks/mock';
 
 
 // em Isolamento

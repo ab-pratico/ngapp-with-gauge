@@ -25,8 +25,7 @@ import { TestBed } from '@angular/core/testing';
 global['preparedTetsts'] = false;
 
 
-if (!global['preparedTetsts']) {
-  //  console.log('PREPARING TESTS................................');
+if (!global['preparedTetsts'] && ! process.env.UNIT_TESTS) {
   global['preparedTetsts'] = true;
 
   beforeEach(() => {
@@ -36,7 +35,4 @@ if (!global['preparedTetsts']) {
   afterEach(() => {
     TestBed.resetTestEnvironment();
   });
-  // //   afterEach(() => {
-  // //     TestBed.resetTestEnvironment();
-  // //   });
 }
