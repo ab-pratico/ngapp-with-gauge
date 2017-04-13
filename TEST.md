@@ -39,3 +39,14 @@ Categoria de testes:
 ```json
     "moduleDirectories": ["node_modules", "src"],
 ```
+
+## YARN
+
+- Para manter versões de dependências e sub-dependências sob-controle.
+
+
+### Para instalar o PhantomJS com o YARN
+
+```bash
+TMP_DIR=/tmp yarn add -D karma-phantomjs-launcer
+```
