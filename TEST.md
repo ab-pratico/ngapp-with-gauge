@@ -32,3 +32,10 @@ Categoria de testes:
 
 - Patch para ZoneJS: https://github.com/angular/zone.js/pull/711/files
 
+## JEST SETUP
+
+- Para funcionar baseUrl
+
+```json
+    "moduleDirectories": ["node_modules", "src"],
+```

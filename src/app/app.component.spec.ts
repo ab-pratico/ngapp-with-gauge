@@ -1,14 +1,21 @@
 import { TestBed, async } from '@angular/core/testing';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from 'app/app.component';
+import { runUnitTests, runIntegrationTests } from '../../test/testing-helper';
 
 describe('AppComponent', () => {
-  it(`should have as title 'app works!' without render component`, () => {
-    let app = new AppComponent();
-    expect(app.title).toEqual('app works!');
-  });
-  if (!process.env.UNIT_TEST) {
 
+  describe('UnitTests', runUnitTests(() => {
+    for (let i = 0; i < 5; i++) {
+
+      it(`should have as title 'app works!' without render component`, () => {
+        const app = new AppComponent();
+        expect(app.title).toEqual('app works!');
+      });
+    }
+  }));
+
+  describe('IntegrationTests', runIntegrationTests(() => {
     beforeEach(async(() => {
       TestBed.configureTestingModule({
         declarations: [
@@ -17,35 +24,13 @@ describe('AppComponent', () => {
       }).compileComponents();
     }));
 
-    // it('should create the app', async(() => {
-    //   const fixture = TestBed.createComponent(AppComponent);
-    //   const app = fixture.debugElement.componentInstance;
-    //   expect(app).toBeTruthy();
-    // }));
-
-
-    //for (let i = 0; i < 200; i++) {
-
 
     it(`should have as title 'app works!'`, async(() => {
       const fixture = TestBed.createComponent(AppComponent);
       const app = fixture.debugElement.componentInstance;
-      expect(app.title).toEqual('app works 2!');
+      expect(app.title).toEqual('app works!');
     }));
 
-    // it(`should have as title 'app works!'`, async(() => {
-    //   let app = new AppComponent();
-    //   expect(app.title).toEqual('app works!');
-    // }));
-    //}
+  }));
 
-    // it('should render title in a h1 tag', async(() => {
-    //   const fixture = TestBed.createComponent(AppComponent);
-    //   fixture.detectChanges();
-    //   const compiled = fixture.debugElement.nativeElement;
-    //   expect(compiled.querySelector('h1').textContent).toContain('app works!');
-    // }));
-    //}
-
-  }
 });
