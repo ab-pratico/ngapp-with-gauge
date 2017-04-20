@@ -1,3 +1,8 @@
 <h1>
-  {{title}}
+  {{title}} <span ><ngxs-inplace-loading style="width:20px" [observable]="observable"></ngxs-inplace-loading></span>
 </h1>
+
+<button type="button" (click)="subscribe()">Run</button>
+
+<button type="button" (click)="error()">Error</button>
+<button type="button" (click)="complete()">Complete</button>

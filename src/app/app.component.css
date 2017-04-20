@@ -1,0 +1,8 @@
+ ngxs-inplace-loading {
+   display: block !important;
+ }
+
+ ngxs-inplace-loading span.loading-indicator img {
+   width: 20px !important;
+   height: 20px !important;
+ }

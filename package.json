@@ -29,6 +29,7 @@
     "core-js": "^2.4.1",
     "jsdom": "9.11.0",
     "karma-phantomjs-launcher": "^1.0.4",
+    "ngx-serpro": "https://github.com/SerproLivre/ngx-serpro",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
