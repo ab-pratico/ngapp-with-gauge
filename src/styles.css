@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+ngxs-inplace-loading img {
+  width: 20px;
+}

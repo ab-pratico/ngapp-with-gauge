@@ -1,8 +1,13 @@
- ngxs-inplace-loading {
-   display: block !important;
- }
 
- ngxs-inplace-loading span.loading-indicator img {
-   width: 20px !important;
-   height: 20px !important;
+ngxs-inplace-loading {
+
+  max-width: 20px !important;
+  max-height: 20px !important;
+}
+
+ img.loading-indicator {
+
+   max-width: 20px !important;
+   max-height: 20px !important;
+   background-color: red;
  }
