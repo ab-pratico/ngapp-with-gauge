@@ -8,8 +8,8 @@ declare var require;
 
 @Component({
   selector: 'app-root',
-  template: require('./app.component.html'),
-  styles: [ require('./app.component.css' )]
+  template: './app.component.html',
+  styles: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit {
   title = 'app works!';
